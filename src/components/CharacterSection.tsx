@@ -71,7 +71,16 @@ export const CharacterSection: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Specs Box (키, 체격, 머리, 눈, 복장) */}
+                {/* Main Visual Artwork / Profile Photo (이름 바로 아래, 설명 위에 배치) */}
+                <div className="mb-5 h-[340px] sm:h-[360px]">
+                  <CharacterArtwork 
+                    characterId={char.id} 
+                    imageUrl={char.imageUrl} 
+                    characterName={char.name} 
+                  />
+                </div>
+
+                {/* Specs Box (키, 체격, 머리, 눈, 복장 - 프로필 사진 아래 설명) */}
                 <div className="space-y-1.5 py-3 px-3.5 rounded-lg bg-black/50 border border-white/5 text-xs text-slate-300 mb-5">
                   <div className="flex items-center justify-between">
                     <span className="text-slate-400 w-12">키</span>
@@ -95,11 +104,6 @@ export const CharacterSection: React.FC = () => {
                       {char.attire}
                     </span>
                   </div>
-                </div>
-
-                {/* Main Visual Artwork with Crop & Fallback */}
-                <div className="mb-5 h-[340px]">
-                  <CharacterArtwork characterId={char.id} />
                 </div>
 
                 {/* Detail Inspection Panels (눈 / 측면 / 디테일) */}

@@ -7,6 +7,11 @@ export const CHARACTERS: Character[] = [
     age: 32,
     role: '세인트 블루 함장',
     affiliation: '한영해운 선단 총괄',
+    // [프로필 사진 첨부 가이드]
+    // 추후 오태성의 전용 사진/일러스트를 첨부하실 때 아래 따옴표 안에 이미지 경로를 넣어주세요.
+    // 예: imageUrl: '/tae_sung.png' 또는 '/images/tae_sung.jpg'
+    // 비워둘 경우 기본 시네마틱 콜라주 이미지 및 럭셔리 아트워크가 자동으로 적용됩니다.
+    imageUrl: '',
     height: '187cm',
     physique: '넓은 어깨, 단단한 체격',
     hair: '검은 머리, 깔끔하게 넘김',
@@ -62,6 +67,11 @@ export const CHARACTERS: Character[] = [
     age: 33,
     role: '마피아 보스',
     affiliation: '지중해 암시장 & 국제 신디케이트 수장',
+    // [프로필 사진 첨부 가이드]
+    // 추후 한경민의 전용 사진/일러스트를 첨부하실 때 아래 따옴표 안에 이미지 경로를 넣어주세요.
+    // 예: imageUrl: '/kyung_min.png' 또는 '/images/kyung_min.jpg'
+    // 비워둘 경우 기본 시네마틱 콜라주 이미지 및 럭셔리 아트워크가 자동으로 적용됩니다.
+    imageUrl: '',
     height: '188cm',
     physique: '압도적인 골격과 피지컬, 군더더기 없는 위압감',
     hair: '자연스럽게 흐트러진 흑발',
@@ -115,6 +125,11 @@ export const CHARACTERS: Character[] = [
     age: 28,
     role: '한영그룹 후계자, 재벌 3세',
     affiliation: '한영그룹 기획조정실 총괄 전무',
+    // [프로필 사진 첨부 가이드]
+    // 추후 명세현의 전용 사진/일러스트를 첨부하실 때 아래 따옴표 안에 이미지 경로를 넣어주세요.
+    // 예: imageUrl: '/se_hyun.png' 또는 '/images/se_hyun.jpg'
+    // 비워둘 경우 기본 시네마틱 콜라주 이미지 및 럭셔리 아트워크가 자동으로 적용됩니다.
+    imageUrl: '',
     height: '181cm',
     physique: '슬림하고 유려한 모델 체형, 세련된 실루엣',
     hair: '부드러운 컬감의 트렌디한 애쉬 브라운',

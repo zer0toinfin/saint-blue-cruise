@@ -12,6 +12,13 @@ export interface Character {
   age: number;
   role: string;
   affiliation: string;
+  /**
+   * [추후 프로필 이미지 첨부 필드]
+   * 개별 프로필 이미지를 추가할 경우 이미지 경로 또는 URL을 입력합니다.
+   * 예: '/images/characters/tae_sung.png', '/tae_sung.png', 'https://...'
+   * 비어있을 경우 기본 콜라주 크롭 이미지 및 럭셔리 아트워크가 적용됩니다.
+   */
+  imageUrl?: string;
   height: string;
   physique: string;
   hair: string;
