@@ -2,5 +2,7 @@
   "name": "Saint Blue Cruise - 세인트 블루 공식 가이드",
   "description": "초호화 크루즈선 「세인트 블루」의 메인 캐릭터 소개 및 10개 층 선내 시설 공식 안내.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

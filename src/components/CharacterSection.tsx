@@ -81,26 +81,26 @@ export const CharacterSection: React.FC = () => {
                 </div>
 
                 {/* Specs Box (키, 체격, 머리, 눈, 복장 - 프로필 사진 아래 설명) */}
-                <div className="space-y-1.5 py-3 px-3.5 rounded-lg bg-black/50 border border-white/5 text-xs text-slate-300 mb-5">
-                  <div className="flex items-center justify-between">
-                    <span className="text-slate-400 w-12">키</span>
+                <div className="space-y-2 py-3 px-3.5 rounded-lg bg-black/50 border border-white/5 text-xs text-slate-300 mb-5">
+                  <div className="flex items-center justify-between gap-3">
+                    <span className="text-slate-400 w-12 shrink-0">키</span>
                     <span className="font-mono text-white text-right">{char.height}</span>
                   </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-slate-400 w-12">체격</span>
-                    <span className="text-white text-right truncate max-w-[200px]">{char.physique}</span>
+                  <div className="flex items-start justify-between gap-3">
+                    <span className="text-slate-400 w-12 shrink-0 pt-0.5">체격</span>
+                    <span className="text-white text-right break-keep leading-relaxed flex-1">{char.physique}</span>
                   </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-slate-400 w-12">머리</span>
-                    <span className="text-white text-right truncate max-w-[200px]">{char.hair}</span>
+                  <div className="flex items-start justify-between gap-3">
+                    <span className="text-slate-400 w-12 shrink-0 pt-0.5">머리</span>
+                    <span className="text-white text-right break-keep leading-relaxed flex-1">{char.hair}</span>
                   </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-slate-400 w-12">눈</span>
-                    <span className="text-white text-right truncate max-w-[200px]">{char.eyes}</span>
+                  <div className="flex items-start justify-between gap-3">
+                    <span className="text-slate-400 w-12 shrink-0 pt-0.5">눈</span>
+                    <span className="text-white text-right break-keep leading-relaxed flex-1">{char.eyes}</span>
                   </div>
-                  <div className="flex items-start justify-between pt-0.5 border-t border-white/5">
-                    <span className="text-slate-400 w-12 shrink-0">복장</span>
-                    <span className="text-[#e6ceaa] text-right text-[11px] leading-tight max-w-[200px]">
+                  <div className="flex items-start justify-between gap-3 pt-2 border-t border-white/5">
+                    <span className="text-slate-400 w-12 shrink-0 pt-0.5">복장</span>
+                    <span className="text-[#e6ceaa] text-right text-[11px] leading-relaxed break-keep flex-1">
                       {char.attire}
                     </span>
                   </div>
@@ -108,24 +108,24 @@ export const CharacterSection: React.FC = () => {
 
                 {/* Detail Inspection Panels (눈 / 측면 / 디테일) */}
                 <div className="grid grid-cols-2 gap-2 text-xs">
-                  <div className="p-2.5 rounded-lg bg-black/40 border border-white/5">
+                  <div className="p-2.5 rounded-lg bg-black/40 border border-white/5 flex flex-col justify-between">
                     <div className="flex items-center gap-1.5 text-[#dfc699] font-mono text-[10px] mb-1">
-                      <Eye className="w-3 h-3" />
+                      <Eye className="w-3 h-3 shrink-0" />
                       <span>눈 (EYES)</span>
                     </div>
-                    <p className="text-[11px] text-slate-300 leading-tight">
+                    <p className="text-[11px] text-slate-300 leading-relaxed break-keep">
                       {char.id === 'tae_sung' && '깊고 서늘한 흑요석빛 눈동자'}
                       {char.id === 'kyung_min' && '꿰뚫어보는 차가운 회색 눈'}
                       {char.id === 'se_hyun' && '호기심 가득한 반짝이는 시선'}
                     </p>
                   </div>
 
-                  <div className="p-2.5 rounded-lg bg-black/40 border border-white/5">
+                  <div className="p-2.5 rounded-lg bg-black/40 border border-white/5 flex flex-col justify-between">
                     <div className="flex items-center gap-1.5 text-[#dfc699] font-mono text-[10px] mb-1">
-                      <Compass className="w-3 h-3" />
+                      <Compass className="w-3 h-3 shrink-0" />
                       <span>측면 (PROFILE)</span>
                     </div>
-                    <p className="text-[11px] text-slate-300 leading-tight">
+                    <p className="text-[11px] text-slate-300 leading-relaxed break-keep">
                       {char.id === 'tae_sung' && '단정하고 곧은 턱선과 콧대'}
                       {char.id === 'kyung_min' && '뺨의 옅은 흉터와 날카로운 선'}
                       {char.id === 'se_hyun' && '자연스러운 웨이브와 세련된 선'}
@@ -134,14 +134,14 @@ export const CharacterSection: React.FC = () => {
 
                   <div className="p-2.5 rounded-lg bg-black/40 border border-white/5 col-span-2">
                     <div className="flex items-center gap-1.5 text-[#dfc699] font-mono text-[10px] mb-1">
-                      <Sparkles className="w-3 h-3" />
+                      <Sparkles className="w-3 h-3 shrink-0" />
                       <span>
                         {char.id === 'tae_sung' && '제복 디테일 (UNIFORM)'}
                         {char.id === 'kyung_min' && '흉터 & 수트 (SCAR & SUIT)'}
                         {char.id === 'se_hyun' && '헤어 & 셔츠 (HAIR & SILK)'}
                       </span>
                     </div>
-                    <p className="text-[11px] text-slate-300 leading-tight">
+                    <p className="text-[11px] text-slate-300 leading-relaxed break-keep">
                       {char.id === 'tae_sung' && '금빛 견장 4선, 황금빛 날개 흉장, 단정한 블랙 타이'}
                       {char.id === 'kyung_min' && '왼쪽 뺨의 옅은 상처, 언버튼 블랙 실크 셔츠, 맞춤 자켓'}
                       {char.id === 'se_hyun' && '애쉬 브라운 레이어드 헤어, 실버 펜던트 목걸이, 루즈핏 셔츠'}
