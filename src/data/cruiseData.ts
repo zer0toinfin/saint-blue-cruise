@@ -11,7 +11,7 @@ export const CHARACTERS: Character[] = [
     // 추후 오태성의 전용 사진/일러스트를 첨부하실 때 아래 따옴표 안에 이미지 경로를 넣어주세요.
     // 예: imageUrl: '/tae_sung.png' 또는 '/images/tae_sung.jpg'
     // 비워둘 경우 기본 시네마틱 콜라주 이미지 및 럭셔리 아트워크가 자동으로 적용됩니다.
-    imageUrl: '',
+    imageUrl: 'https://github.com/bat0wn2r/saint-blue-cruise/blob/main/%EC%98%A4%ED%83%9C%EC%84%B1.png?raw=true',
     height: '187cm',
     physique: '넓은 어깨, 단단한 체격',
     hair: '검은 머리, 깔끔하게 넘김',
@@ -71,7 +71,7 @@ export const CHARACTERS: Character[] = [
     // 추후 한경민의 전용 사진/일러스트를 첨부하실 때 아래 따옴표 안에 이미지 경로를 넣어주세요.
     // 예: imageUrl: '/kyung_min.png' 또는 '/images/kyung_min.jpg'
     // 비워둘 경우 기본 시네마틱 콜라주 이미지 및 럭셔리 아트워크가 자동으로 적용됩니다.
-    imageUrl: '',
+    imageUrl: 'https://github.com/bat0wn2r/saint-blue-cruise/blob/main/%ED%95%9C%EA%B2%BD%EB%AF%BC.png?raw=true',
     height: '188cm',
     physique: '압도적인 골격과 피지컬, 군더더기 없는 위압감',
     hair: '자연스럽게 흐트러진 흑발',
@@ -129,7 +129,7 @@ export const CHARACTERS: Character[] = [
     // 추후 명세현의 전용 사진/일러스트를 첨부하실 때 아래 따옴표 안에 이미지 경로를 넣어주세요.
     // 예: imageUrl: '/se_hyun.png' 또는 '/images/se_hyun.jpg'
     // 비워둘 경우 기본 시네마틱 콜라주 이미지 및 럭셔리 아트워크가 자동으로 적용됩니다.
-    imageUrl: '',
+    imageUrl: 'https://github.com/bat0wn2r/saint-blue-cruise/blob/main/%EB%AA%85%EC%84%B8%ED%98%84.png?raw=true',
     height: '181cm',
     physique: '슬림하고 유려한 모델 체형, 세련된 실루엣',
     hair: '부드러운 컬감의 트렌디한 애쉬 브라운',
